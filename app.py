@@ -32,7 +32,7 @@ PAGE = """
     <style>""" + STYLE + """</style>
   </head>
   <body>
-    <h1>This is the photo gallery from {{ student }}</h1>
+    <h1>123 This is the photo gallery from {{ student }}</h1>
     <ul>{% for kitten in kittens %}
       <li><img src='{{ kitten }}'/> {{ kitten }}</li>
     {% endfor %}</ul>
